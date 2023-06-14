@@ -1,0 +1,124 @@
+/* GugaStyles! Pretty Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+:root {
+  --primary: #4287f5;
+  --secondary: #32a852;
+  --danger: #eb4034;
+  --warning: #fcba03;
+}
+.g-btn, button {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: var(--primary);
+  color: white;
+}
+.g-btn:hover, button:hover {
+  background-color: #3e6db8;
+}
+.g-btn:active, button:active {
+  background-color: #9cbbec;
+}
+.g-primary {
+  background-color: var(--primary);
+}
+.g-primary-text {
+  color: var(--primary);
+}
+.g-secondary {
+  background-color: var(--secondary);
+}
+.g-secondary-text {
+  color: var(--secondary);
+}
+.g-danger {
+  background-color: var(--danger);
+}
+.g-danger-text {
+  color: var(--danger);
+}
+.g-warning {
+  background-color: var(--warning);
+}
+.g-warning-text {
+  color: var(--warning);
+}
+.g-text, * {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+.g-text:hover {
+  font-style: italic;
+}
+.g-bold {
+  font-weight: bold;
+}
+.g-italic {
+  font-style: italic;
+}
+.g-navbar {
+  height: 2.8rem;
+  width: 100%;
+  position: sticky;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+.g-text-title {
+  font-size: 1.4rem;
+}
+.g-input, input {
+  border: none;
+  border-bottom: black solid;
+  outline: none;
+  transition: all 300ms;
+}
+.g-input:hover, input:hover {
+  border-bottom: gray solid;
+}
+.g-input:focus, input:focus {
+  border-bottom: var(--primary) solid;
+}
+.g-navbar > * {
+  float: left;
+  display: block;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+/* now the aligning! */
+
+.g-text-center {
+  text-align: center;
+}
+.g-text-left {
+  text-align: left;
+}
+.g-text-right {
+  text-align: right; 
+}
+.g-text-justify {
+  text-align: justify;
+}
+.g-block {
+  display: block;
+}
+.g-inline {
+  display: inline;
+}
+.g-flex {
+  display: flex;
+}
+.g-none {
+  display: none;
+}
+.g-grid {
+  display: grid;
+}
